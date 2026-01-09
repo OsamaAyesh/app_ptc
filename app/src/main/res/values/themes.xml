@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Appptc" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Appptc" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#1ABC9C</item>
+        <item name="colorPrimaryDark">#16A085</item>
+        <item name="colorAccent">#1ABC9C</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSurface">@android:color/white</item>
+        <item name="colorOnSurface">#222222</item>
+    </style>
 </resources>
